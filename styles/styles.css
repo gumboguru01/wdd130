@@ -45,6 +45,19 @@ aside img {
     height: auto;
 }
 
+/* added code defining .aside-images img*/
+.aside-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.aside-images img {
+    width: 200px;
+    height: auto;
+}
+
+
 footer {
     margin-top: 40px;
     border-top: 1px solid #ccc;
